@@ -66,7 +66,7 @@ class Auth
      *
      * @var array
      */
-    protected $lastPermission;
+    protected $lastPermission = array();
 
     /**
      * 已授权用户.
